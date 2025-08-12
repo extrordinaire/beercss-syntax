@@ -141,29 +141,29 @@ main(v-show="data.showPage")
             .s4
               p.bold Social
               p
-                a.link GitHub
+                a.text-primary(href="#") GitHub
               p
-                a.link Twitter
+                a.text-primary(href="#") Twitter
               p
-                a.link Youtube
+                a.text-primary(href="#") Youtube
               p
-                a.link Blog RSS
+                a.text-primary(href="#") Blog RSS
             .s4
               p.bold Libraries
               p
-                a.link Android
+                a.text-primary(href="#") Android
               p
-                a.link Compose
+                a.text-primary(href="#") Compose
               p
-                a.link Flutter
+                a.text-primary(href="#") Flutter
               p
-                a.link Web
+                a.text-primary(href="#") Web
             .s4
               p.bold Archived versions
               p
-                a.link Material Design 1
+                a.text-primary(href="#") Material Design 1
               p
-                a.link Material Design 2
+                a.text-primary(href="#") Material Design 2
       .large-space
       .row.large-space.wrap
         svg(width="71", height="23")
@@ -183,5 +183,5 @@ const reloadAnimation = async () => {
   data.value.showPage = false;
   await utils.wait(100);
   data.value.showPage = true;
-}
+};
 </script>

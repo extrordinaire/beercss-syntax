@@ -93,15 +93,11 @@ h6.large {
   font-size: 2rem;
 }
 
-.text-primary,
-.link {
-  /* TODO: drop `.link` in favor of neutral `.text-primary`. */
+.text-primary {
   color: var(--primary) !important;
 }
 
-.text-inverse-primary,
-.inverse-link {
-  /* TODO: drop `.inverse-link` in favor of `.text-inverse-primary`. */
+.text-inverse-primary {
   color: var(--inverse-primary) !important;
 }
 

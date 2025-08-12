@@ -1,6 +1,4 @@
-/* TODO: prefer <hr> elements; [class*=divider] encourages non-semantic markup. */
-hr,
-[class*=divider] {
+hr {
   all: unset;
   inline-size: -webkit-fill-available;
   min-block-size: auto;
@@ -9,28 +7,23 @@ hr,
   display: block;
 }
 
-hr + *,
-[class*=divider] + * {
+hr + * {
   margin: 0 !important;
 }
 
-hr.medium,
-.medium-divider {
+hr.medium {
   margin: 1rem 0 !important;
 }
 
-hr.large,
-.large-divider {
+hr.large {
   margin: 1.5rem 0 !important;
 }
 
-hr.small,
-.small-divider {
+hr.small {
   margin: 0.5rem 0 !important;
 }
 
-li:has(> hr),
-li:has(> .divider) {
+li:has(> hr) {
   padding: 0 !important;
   align-self: normal !important;
   min-inline-size: auto !important;
@@ -39,9 +32,7 @@ li:has(> .divider) {
 }
 
 hr.vertical,
-.divider.vertical,
-li:has(> hr.vertical),
-li:has(> .divider.vertical) {
+li:has(> hr.vertical) {
   padding: 0 !important;
   align-self: center !important;
   min-inline-size: auto;

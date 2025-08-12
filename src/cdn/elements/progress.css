@@ -124,7 +124,7 @@ progress.max + * {
   margin-block-start: 0;
 }
 
-:is(.btn, .button, button, .chip) > progress.circle {
+:is(.btn, button, .chip) > progress.circle {
   color: inherit;
 }
 

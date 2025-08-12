@@ -101,7 +101,7 @@
   animation: linear to-shape-rotate infinite 24s reverse;
 }
 
-:is(button, .btn, .button, .chip):has(> .shape) > .responsive {
+:is(button, .btn, .chip):has(> .shape) > .responsive {
   border: none;
 }
 

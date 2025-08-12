@@ -1,5 +1,4 @@
 :is(ul.list, ol.list) {
-  /* TODO: restrict list styling to semantic <ul>/<ol> elements. */
   display: flex;
   flex-direction: column;
   padding: 0;

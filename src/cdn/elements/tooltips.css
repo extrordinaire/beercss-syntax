@@ -97,7 +97,7 @@
 }
 
 menu:active ~ .tooltip,
-:is(button, .btn, .button):focus > menu ~ .tooltip,
+:is(button, .btn):focus > menu ~ .tooltip,
 .field > :focus ~ menu ~ .tooltip {
   visibility: hidden;
 }

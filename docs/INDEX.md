@@ -105,7 +105,7 @@ You can use this html to setup your project. See on [Codepen](https://codepen.io
         <i>more_vert</i>
         <div>More</div>
       </a>
-      <div class="divider"></div>
+      <hr>
       <a>
         <i>widgets</i>
         <div>Widgets</div>

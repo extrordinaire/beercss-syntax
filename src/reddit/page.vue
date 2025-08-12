@@ -63,7 +63,7 @@ div(v-show="data.showPage")
           .small-text
             b leonardorafaelw
             div
-              i.tiny.link settings
+              i.tiny.text-primary settings
               span 999 karma
           i arrow_drop_down
         menu.no-wrap.left#menu-profile
