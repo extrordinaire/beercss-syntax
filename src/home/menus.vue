@@ -4,7 +4,7 @@
   h4
     span Menus
     button.chip.circle(
-      @click="domain.showSamples(data, '#menus > nav > button', 'Menus', null, 'https://github.com/beercss/beercss/blob/main/docs/MENU.md')"
+      @click="domain.showSamples(data, '#menus nav button', 'Menus', null, 'https://github.com/beercss/beercss/blob/main/docs/MENU.md')"
     )
       i code
   nav.wrap
