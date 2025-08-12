@@ -73,7 +73,7 @@ main.responsive
                     label.grey-text Posted by u/leonardorafalw 3 hours ago
                     h6.no-margin "The golden rule of assertions"
                 .medium-space
-                a.row.link(href="/")
+                a.row.text-primary(href="/")
                   span https://www.beercs.com
                   i link
         article.no-elevate.round

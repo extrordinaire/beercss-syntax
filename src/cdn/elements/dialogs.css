@@ -37,6 +37,7 @@ dialog.large {
   block-size: 75%;
 }
 
+/* TODO: .active mirrors [open]; rely on native attribute */
 dialog:is(.active, [open]) {
   visibility: visible;
   opacity: 1;
