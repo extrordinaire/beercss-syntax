@@ -5,11 +5,12 @@ Menus display a list of choices on temporary surfaces.
 ## Element
 
 ```html
-<...>
+<div>
+  <button>...</button>
   <menu>
     <li>...</li>
   </menu>
-</...>
+</div>
 ```
 
 ## Most used helpers
@@ -37,19 +38,23 @@ active
 ## Example
 
 ```html
-<button>
-  <span>Button</span>
+<div>
+  <button>
+    <span>Button</span>
+  </button>
   <menu>
     <li>Item</li>
     <li>Item</li>
     <li>Item</li>
   </menu>
-</button>
+</div>
 ```
 
 ```html
-<button>
-  <span>Button</span>
+<div>
+  <button>
+    <span>Button</span>
+  </button>
   <menu>
     <li>
       <a href="#">Item</a>
@@ -61,7 +66,7 @@ active
       <a href="#">Item</a>
     </li>
   </menu>
-</button>
+</div>
 ```
 
 ## Triggers 
@@ -73,14 +78,16 @@ active
 Add/remove `active` class on menu.
 
 ```html
-<button>
-  <span>Button</span>
+<div>
+  <button>
+    <span>Button</span>
+  </button>
   <menu class="active">
     <li>Item</li>
     <li>Item</li>
     <li>Item</li>
   </menu>
-</button>
+</div>
 ```
 
 #### Method 2
@@ -88,14 +95,16 @@ Add/remove `active` class on menu.
 Add `data-ui="menu-selector"` attribute on elements.
 
 ```html
-<button data-ui="#menu">
-  <span>Button</span>
+<div>
+  <button data-ui="#menu">
+    <span>Button</span>
+  </button>
   <menu id="menu">
     <li>Item</li>
     <li>Item</li>
     <li>Item</li>
   </menu>
-</button>
+</div>
 ```
 
 #### Method 3
@@ -103,14 +112,16 @@ Add `data-ui="menu-selector"` attribute on elements.
 Call `ui("menu-selector")`.
 
 ```html
-<button>
-  <span>Button</span>
+<div>
+  <button>
+    <span>Button</span>
+  </button>
   <menu id="menu">
     <li>Item</li>
     <li>Item</li>
     <li>Item</li>
   </menu>
-</button>
+</div>
 ```
 
 ```js

@@ -37,7 +37,7 @@ code {
 
 a,
 button,
-.button {
+.btn {
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
@@ -50,7 +50,7 @@ button,
 
 a,
 button,
-.button,
+.btn,
 i,
 label {
   user-select: none;
@@ -73,7 +73,7 @@ body :is(:hover,:focus)::-webkit-scrollbar-thumb {
   margin-block-start: 1rem;
 }
 
-:is(a, button, .button, .chip):focus-visible {
+:is(a, button, .btn, .chip):focus-visible {
   outline: 0.125rem solid var(--primary);
   outline-offset: 0.25rem;
 }
@@ -82,6 +82,6 @@ body :is(:hover,:focus)::-webkit-scrollbar-thumb {
   z-index: 1;
 }
 
-:is(button, .button, .chip) > :is(span, i, img, svg) {
+:is(button, .btn, .chip) > :is(span, i, img, svg) {
   pointer-events: none;
 }

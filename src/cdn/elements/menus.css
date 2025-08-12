@@ -32,6 +32,7 @@ menu.no-wrap {
   white-space: nowrap !important;
 }
 
+/* TODO: .active duplicates open state; prefer [open] or data attribute */
 menu.active,
 :not(menu, [data-ui]):focus-within > menu,
 menu > li:hover > menu,
@@ -71,6 +72,7 @@ menu > li > a:only-child {
   cursor: pointer;
 }
 
+/* TODO: replace .active with aria-selected or similar */
 menu > li:is(:hover, :focus, .active) {
   background-color: var(--active);
 }

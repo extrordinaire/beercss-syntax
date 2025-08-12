@@ -5,6 +5,7 @@
   display: none;
 }
 
+/* TODO: .active used for visibility; consider `[hidden]` or `aria-hidden` */
 .page.active {
   opacity: 1;
   position: inherit;
