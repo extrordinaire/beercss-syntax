@@ -7,8 +7,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "lint": "npm run lint:ts && npm run lint:style",
+    "lint": "npm run lint:ts && npm run lint:style && npm run lint:html",
     "lint:ts": "eslint . --ext .js,.ts,.vue --fix",
+    "lint:html": "eslint . --config .eslintrc-html.cjs --no-eslintrc --ext .html --fix",
     "lint:style": "stylelint --fix \"src/**/*.css\"",
     "dev": "node ./build/dev.js",
     "build": "node ./build/build.js && node ./build/cdn.js",
@@ -16,6 +17,8 @@
     "generate-llms": "node ./build/generate-llms-md.js"
   },
   "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.45.0",
+    "@html-eslint/parser": "^0.45.0",
     "@stylistic/stylelint-plugin": "^2.1.2",
     "@types/jsdom": "^21.1.7",
     "@typescript-eslint/eslint-plugin": "^7.11.0",

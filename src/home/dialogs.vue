@@ -22,8 +22,8 @@
       h5 Default
       div Some text here
       nav.right-align.no-space
-        button.transparent.link(data-ui="#dialog") Cancel
-        button.transparent.link(data-ui="#dialog") Confirm
+        button.transparent.text-primary(data-ui="#dialog") Cancel
+        button.transparent.text-primary(data-ui="#dialog") Confirm
 
   .dialog-code
     .overlay
@@ -31,8 +31,8 @@
       h5 Modal
       div Some text here
       nav.right-align.no-space
-        button.transparent.link(data-ui="#dialog-modal") Cancel
-        button.transparent.link(data-ui="#dialog-modal") Confirm
+        button.transparent.text-primary(data-ui="#dialog-modal") Cancel
+        button.transparent.text-primary(data-ui="#dialog-modal") Confirm
 
   .dialog-code
     .overlay.blur
@@ -40,8 +40,8 @@
       h5 Custom overlay
       div Some text here
       nav.right-align.no-space
-        button.transparent.link(data-ui="#dialog-custom-overlay") Cancel
-        button.transparent.link(data-ui="#dialog-custom-overlay") Confirm
+        button.transparent.text-primary(data-ui="#dialog-custom-overlay") Cancel
+        button.transparent.text-primary(data-ui="#dialog-custom-overlay") Confirm
 
   .dialog-code
     .overlay

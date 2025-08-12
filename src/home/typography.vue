@@ -38,8 +38,8 @@
   .space
   #formatting
     nav.wrap
-      a.link link
-      a.inverse-link inverse-link
+      a.text-primary(href="#") link
+      a.text-inverse-primary(href="#") inverse-link
       p.italic italic
       p.bold bold
       p.underline underline

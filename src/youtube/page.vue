@@ -40,7 +40,7 @@
     a(href="/youtube/explore", :class="{ active: data.url === '/youtube/explore' }")
       i explore
       div Explore
-    a.button.square.round.extra.fill(data-ui="#dialog-add")
+    a.btn.square.round.extra.fill(data-ui="#dialog-add")
       i add
     a(href="/youtube/library", :class="{ active: data.url === '/youtube/library' }")
       i video_library
