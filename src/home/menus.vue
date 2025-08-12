@@ -60,11 +60,11 @@
         i arrow_drop_down
       menu#menu10(data-ui="#menu10")
         li
-          a Item 1
+          a(href="#") Item 1
         li
-          a Item 2
+          a(href="#") Item 2
         li
-          a Item 3
+          a(href="#") Item 3
     div
       button(data-ui="#menu5")
         span Images and icons
@@ -82,10 +82,10 @@
             div Title
             label Some text here
         li
-          img.circle.tiny(:src="'/beer-and-woman.svg'")
+          img.circle.tiny(:src="'/beer-and-woman.svg'" alt="")
           span Title
         li
-          img.circle.tiny(:src="'/beer-and-woman.svg'")
+          img.circle.tiny(:src="'/beer-and-woman.svg'" alt="")
           .max
             div Title
             label Some text here
