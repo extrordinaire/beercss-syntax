@@ -163,7 +163,7 @@ You can use this html to setup your project. See on [Codepen](https://codepen.io
         <i>more_vert</i>
         <div>More</div>
       </a>
-      <hr>
+      <hr class="divider">
       <a>
         <i>widgets</i>
         <div>Widgets</div>
@@ -1307,7 +1307,7 @@ Dividers are thin lines that group content in lists or other containers
 ## Element
 
 ```html
-<hr />
+<hr class="divider" />
 ```
 
 ## Most used helpers
@@ -1323,9 +1323,9 @@ small, medium, large
 ## Example
 
 ```html
-<hr />
-<hr class="small" />
-<hr class="vertical" />
+<hr class="divider" />
+<hr class="divider small" />
+<hr class="divider vertical" />
 ```
 
 ---

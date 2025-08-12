@@ -13,9 +13,6 @@ flagged for refactoring:
   non-semantic containers like `<div class="list">`. Restrict to `<ul>`/`<ol>`
   via selectors (e.g. `ul.list, ol.list`) or rename to a neutral helper like
   `.list-reset`.
-- **`.divider` / `[class*=divider]`** (`src/cdn/elements/dividers.css`): enables
-  `<div class="divider">` patterns. Prefer `<hr>` elements with optional
-  modifier classes.
 
 Additional utilities will be added as the project is audited for semantic
 conformance.

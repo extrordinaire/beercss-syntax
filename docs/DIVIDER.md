@@ -5,7 +5,7 @@ Dividers are thin lines that group content in lists or other containers
 ## Element
 
 ```html
-<hr />
+<hr class="divider" />
 ```
 
 ## Most used helpers
@@ -21,9 +21,9 @@ small, medium, large
 ## Example
 
 ```html
-<hr />
-<hr class="small" />
-<hr class="vertical" />
+<hr class="divider" />
+<hr class="divider small" />
+<hr class="divider vertical" />
 ```
 
 ## Go to
