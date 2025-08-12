@@ -35,7 +35,7 @@ div
             i gps_fixed
         .min
           h6.no-margin {{ data.street }}
-          .link Your current location
+          .text-primary Your current location
       hr.small
       a.row(@click="go()")
         .min
@@ -68,7 +68,7 @@ div
             i gps_fixed
         .min
           h6.no-margin {{ data.street }}
-          .link Your current location
+          .text-primary Your current location
 </template>
 
 <script setup lang="ts">
