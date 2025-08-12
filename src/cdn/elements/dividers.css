@@ -1,3 +1,4 @@
+/* TODO: prefer <hr> elements; [class*=divider] encourages non-semantic markup. */
 hr,
 [class*=divider] {
   all: unset;

@@ -94,10 +94,12 @@ h6.large {
 }
 
 .link {
+  /* TODO: rename to avoid implying anchor semantics (e.g., .text-primary). */
   color: var(--primary) !important;
 }
 
 .inverse-link {
+  /* TODO: rename to avoid implying anchor semantics. */
   color: var(--inverse-primary) !important;
 }
 
