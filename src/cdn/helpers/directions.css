@@ -15,7 +15,7 @@
   flex-direction: column !important;
 }
 
-:is(a, button, .button, .chip).vertical {
+:is(a, button, .btn, .button, .chip).vertical {
   display: inline-flex;
   gap: 0.25rem;
   block-size: auto !important;

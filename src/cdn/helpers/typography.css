@@ -93,13 +93,15 @@ h6.large {
   font-size: 2rem;
 }
 
+.text-primary,
 .link {
-  /* TODO: rename to avoid implying anchor semantics (e.g., .text-primary). */
+  /* TODO: drop `.link` in favor of neutral `.text-primary`. */
   color: var(--primary) !important;
 }
 
+.text-inverse-primary,
 .inverse-link {
-  /* TODO: rename to avoid implying anchor semantics. */
+  /* TODO: drop `.inverse-link` in favor of `.text-inverse-primary`. */
   color: var(--inverse-primary) !important;
 }
 

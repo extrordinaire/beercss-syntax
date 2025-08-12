@@ -1,3 +1,6 @@
+/* TODO: deprecate `.button` in favor of a neutral `.btn` helper used only on
+   semantic <button> or <a href> elements. */
+.btn,
 .button,
 button {
   --_padding: 1rem;
@@ -20,27 +23,27 @@ button {
   line-height: normal;
 }
 
-:is(button, .button).small {
+:is(button, .btn, .button).small {
   --_size: 2rem;
   --_padding: 0.75rem;
 }
 
-:is(button, .button).large {
+:is(button, .btn, .button).large {
   --_size: 3rem;
   --_padding: 1.25rem;
 }
 
-:is(.button, button):is(.extra, .extend) {
+:is(.btn, .button, button):is(.extra, .extend) {
   --_size: 3.5rem;
   font-size: 1rem;
   --_padding: 1.5rem;
 }
 
-:is(button, .button):is(.square, .circle) {
+:is(button, .btn, .button):is(.square, .circle) {
   --_padding: 0;
 }
 
-:is(button, .button).border {
+:is(button, .btn, .button).border {
   border-color: var(--outline-variant);
   color: var(--primary);
 }
@@ -65,42 +68,43 @@ button {
   margin-inline-start: calc(1rem + var(--_padding));
 }
 
-:is(.button, button)[disabled] {
+:is(.btn, .button, button)[disabled] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
+.btn[disabled],
 .button[disabled] {
   pointer-events: none;
 }
 
-:is(.button, button)[disabled]::before,
-:is(.button, button)[disabled]::after {
+:is(.btn, .button, button)[disabled]::before,
+:is(.btn, .button, button)[disabled]::after {
   display: none;
 }
 
-:is(.button, button):not(.chip, .extend).fill {
+:is(.btn, .button, button):not(.chip, .extend).fill {
   background-color: var(--secondary-container) !important;
   color: var(--on-secondary-container) !important;
 }
 
-:is(.button, button):not(.chip, .extend).active {
+:is(.btn, .button, button):not(.chip, .extend).active {
   background-color: var(--primary-container);
   color: var(--on-primary-container);
 }
 
-:is(.button, button):not(.chip, .extend).fill.active {
+:is(.btn, .button, button):not(.chip, .extend).fill.active {
   background-color: var(--secondary) !important;
   color: var(--on-secondary) !important;
 }
 
-:is(.button, button):not(.chip, .extend).border.active {
+:is(.btn, .button, button):not(.chip, .extend).border.active {
   background-color: var(--inverse-surface) !important;
   color: var(--inverse-on-surface) !important;
   border-color: var(--inverse-surface) !important;
 }
 
-:is(.button, button):not(.chip):active,
-:is(.button, button):not(.chip).active {
+:is(.btn, .button, button):not(.chip):active,
+:is(.btn, .button, button):not(.chip).active {
   border-radius: 0.5rem !important;
 }
