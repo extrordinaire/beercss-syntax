@@ -134,16 +134,16 @@ div
     header.fixed
       nav
         h5 Main layouts
-        a.button.border.small-round.m.l(
+        a.btn.border.small-round.m.l(
           href="https://codepen.io/leo-bnu/pen/yLKLPxj",
           target="_blank"
         ) Codepen
-        a.button.border.small-round.m.l(
+        a.btn.border.small-round.m.l(
           href="https://github.com/beercss/beercss/blob/main/docs/MAIN_LAYOUT.md",
           target="_blank"
         ) Documentation
         .max
-        a.button.circle.transparent.s(
+        a.btn.circle.transparent.s(
           href="https://github.com/beercss/beercss/blob/main/docs/MAIN_LAYOUT.md",
           target="_blank"
         )

@@ -135,7 +135,7 @@
     .space
     h6
       span Font Awesome
-      a.link(href="https://fontawesome.com/search?m=free&o=r", target="_blank")
+      a.text-primary(href="https://fontawesome.com/search?m=free&o=r", target="_blank")
         i open_in_new
     nav.wrap
       i.fa-regular.fa-circle-user.tiny
@@ -146,7 +146,7 @@
     .medium-space
     h6
       span Pictogrammers
-      a.link(href="https://pictogrammers.com/library/mdi/", target="_blank")
+      a.text-primary(href="https://pictogrammers.com/library/mdi/", target="_blank")
         i open_in_new
     nav.wrap
       i.mdi.mdi-account-circle-outline.tiny
@@ -160,16 +160,16 @@
     header.fixed
       nav
         h5 Default
-        a.button.border.small-round.m.l(
+        a.btn.border.small-round.m.l(
           href="https://fonts.google.com/icons",
           target="_blank"
         ) Get icons
-        a.button.border.small-round.m.l(
+        a.btn.border.small-round.m.l(
           href="https://github.com/beercss/beercss/blob/main/docs/ICON.md",
           target="_blank"
         ) Documentation
         .max
-        a.button.circle.transparent.s(
+        a.btn.circle.transparent.s(
           href="https://github.com/beercss/beercss/blob/main/docs/ICON.md",
           target="_blank"
         )
@@ -189,16 +189,16 @@
     header.fixed
       nav
         h5 SVG
-        a.button.border.small-round.m.l(
+        a.btn.border.small-round.m.l(
           href="https://pictogrammers.com/library/mdi/",
           target="_blank"
         ) Get SVG
-        a.button.border.small-round.m.l(
+        a.btn.border.small-round.m.l(
           href="https://github.com/beercss/beercss/blob/main/docs/ICON.md",
           target="_blank"
         ) Documentation
         .max
-        a.button.circle.transparent.s(
+        a.btn.circle.transparent.s(
           href="https://github.com/beercss/beercss/blob/main/docs/ICON.md",
           target="_blank"
         )
@@ -230,12 +230,12 @@
     header.fixed
       nav
         h5 Other libs
-        a.button.border.small-round.m.l(
+        a.btn.border.small-round.m.l(
           href="https://github.com/beercss/beercss/blob/main/docs/ICON.md",
           target="_blank"
         ) Documentation
         .max
-        a.button.circle.transparent.s(
+        a.btn.circle.transparent.s(
           href="https://github.com/beercss/beercss/blob/main/docs/ICON.md",
           target="_blank"
         )
@@ -245,7 +245,7 @@
     .space
     h6
       span Font Awesome
-      a.link(href="https://fontawesome.com/search?m=free&o=r", target="_blank")
+      a.text-primary(href="https://fontawesome.com/search?m=free&o=r", target="_blank")
         i open_in_new
     p To work as expected, you need to load the lib manually.
     .space
@@ -257,7 +257,7 @@
     .medium-space
     h6
       span Pictogrammers
-      a.link(href="https://pictogrammers.com/library/mdi/", target="_blank")
+      a.text-primary(href="https://pictogrammers.com/library/mdi/", target="_blank")
         i open_in_new
     p To work as expected, you need to load the lib manually.
     .medium-space

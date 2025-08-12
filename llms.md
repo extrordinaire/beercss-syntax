@@ -163,7 +163,7 @@ You can use this html to setup your project. See on [Codepen](https://codepen.io
         <i>more_vert</i>
         <div>More</div>
       </a>
-      <div class="divider"></div>
+      <hr class="divider">
       <a>
         <i>widgets</i>
         <div>Widgets</div>
@@ -1307,7 +1307,7 @@ Dividers are thin lines that group content in lists or other containers
 ## Element
 
 ```html
-<hr />
+<hr class="divider" />
 ```
 
 ## Most used helpers
@@ -1323,9 +1323,9 @@ small, medium, large
 ## Example
 
 ```html
-<hr />
-<hr class="small" />
-<hr class="vertical" />
+<hr class="divider" />
+<hr class="divider small" />
+<hr class="divider vertical" />
 ```
 
 ---
@@ -2077,11 +2077,12 @@ Menus display a list of choices on temporary surfaces.
 ## Element
 
 ```html
-<...>
+<div>
+  <button>...</button>
   <menu>
     <li>...</li>
   </menu>
-</...>
+</div>
 ```
 
 ## Most used helpers
@@ -2109,19 +2110,23 @@ active
 ## Example
 
 ```html
-<button>
-  <span>Button</span>
+<div>
+  <button>
+    <span>Button</span>
+  </button>
   <menu>
     <li>Item</li>
     <li>Item</li>
     <li>Item</li>
   </menu>
-</button>
+</div>
 ```
 
 ```html
-<button>
-  <span>Button</span>
+<div>
+  <button>
+    <span>Button</span>
+  </button>
   <menu>
     <li>
       <a href="#">Item</a>
@@ -2133,7 +2138,7 @@ active
       <a href="#">Item</a>
     </li>
   </menu>
-</button>
+</div>
 ```
 
 ## Triggers 
@@ -2145,14 +2150,16 @@ active
 Add/remove `active` class on menu.
 
 ```html
-<button>
-  <span>Button</span>
+<div>
+  <button>
+    <span>Button</span>
+  </button>
   <menu class="active">
     <li>Item</li>
     <li>Item</li>
     <li>Item</li>
   </menu>
-</button>
+</div>
 ```
 
 #### Method 2
@@ -2160,14 +2167,16 @@ Add/remove `active` class on menu.
 Add `data-ui="menu-selector"` attribute on elements.
 
 ```html
-<button data-ui="#menu">
-  <span>Button</span>
+<div>
+  <button data-ui="#menu">
+    <span>Button</span>
+  </button>
   <menu id="menu">
     <li>Item</li>
     <li>Item</li>
     <li>Item</li>
   </menu>
-</button>
+</div>
 ```
 
 #### Method 3
@@ -2175,14 +2184,16 @@ Add `data-ui="menu-selector"` attribute on elements.
 Call `ui("menu-selector")`.
 
 ```html
-<button>
-  <span>Button</span>
+<div>
+  <button>
+    <span>Button</span>
+  </button>
   <menu id="menu">
     <li>Item</li>
     <li>Item</li>
     <li>Item</li>
   </menu>
-</button>
+</div>
 ```
 
 ```js
