@@ -1,6 +1,5 @@
 <template lang="pug">
 main(v-show="data.isLoaded")
-<template lang="pug">
   .page.right.active
     div
       h5 What's hot
