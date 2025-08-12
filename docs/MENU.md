@@ -69,9 +69,9 @@ active
 </div>
 ```
 
-## Triggers 
+## Triggers
 
-#### To open/close a menu
+### To open/close a menu
 
 #### Method 1
 
