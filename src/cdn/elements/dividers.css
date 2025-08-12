@@ -1,5 +1,4 @@
-hr,
-[class*=divider] {
+hr.divider {
   all: unset;
   inline-size: -webkit-fill-available;
   min-block-size: auto;
@@ -8,28 +7,23 @@ hr,
   display: block;
 }
 
-hr + *,
-[class*=divider] + * {
+hr.divider + * {
   margin: 0 !important;
 }
 
-hr.medium,
-.medium-divider {
+hr.divider.medium {
   margin: 1rem 0 !important;
 }
 
-hr.large,
-.large-divider {
+hr.divider.large {
   margin: 1.5rem 0 !important;
 }
 
-hr.small,
-.small-divider {
+hr.divider.small {
   margin: 0.5rem 0 !important;
 }
 
-li:has(> hr),
-li:has(> .divider) {
+li:has(> hr.divider) {
   padding: 0 !important;
   align-self: normal !important;
   min-inline-size: auto !important;
@@ -37,10 +31,8 @@ li:has(> .divider) {
   inline-size: -webkit-fill-available;
 }
 
-hr.vertical,
-.divider.vertical,
-li:has(> hr.vertical),
-li:has(> .divider.vertical) {
+hr.divider.vertical,
+li:has(> hr.divider.vertical) {
   padding: 0 !important;
   align-self: center !important;
   min-inline-size: auto;

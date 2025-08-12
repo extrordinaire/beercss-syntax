@@ -70,11 +70,11 @@ svg {
   inline-size: 24rem;
 }
 
-:is(button, .button, .chip):not(.transparent) > .responsive {
+:is(button, .btn, .chip):not(.transparent) > .responsive {
   border: 0.25rem solid transparent;
 }
 
-:is(button, .button, .chip, .field) > :is(img, svg):not(.responsive),
+:is(button, .btn, .chip, .field) > :is(img, svg):not(.responsive),
 .tabs :is(img, svg):not(.responsive) {
   min-inline-size: 1.5rem;
   max-inline-size: 1.5rem;
@@ -82,15 +82,15 @@ svg {
   max-block-size: 1.5rem;
 }
 
-:is(button, .button, .chip):not(.extend) > .responsive:first-child {
+:is(button, .btn, .chip):not(.extend) > .responsive:first-child {
   margin-inline-start: calc(-1 * var(--_padding));
 }
 
-:is(button, .button, .chip):not(.extend) > .responsive:not(:first-child) {
+:is(button, .btn, .chip):not(.extend) > .responsive:not(:first-child) {
   margin-inline-end: calc(-1 * var(--_padding));
 }
 
-:is(button, .button, .chip, .circle, .square, .extend) > .responsive {
+:is(button, .btn, .chip, .circle, .square, .extend) > .responsive {
   --_size: inherit;
   margin: 0 auto;
 }

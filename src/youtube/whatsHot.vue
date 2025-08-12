@@ -6,11 +6,11 @@ main(v-show="data.isLoaded")
       .row.top-align(v-for="item in data.itens")
         a.wave.round.m.l
           img.empty-state(:src="item.image")
-          .absolute.right.bottom.small-margin.black.white-text.small-text &nbsp;00:00:00&nbsp;
+          .absolute.right.bottom.small-margin.black.white-text.small-text 00:00:00
         .max.padding
           a.wave.round.s
             img.empty-state(:src="item.image")
-            .absolute.right.bottom.small-margin.black.white-text.small-text &nbsp;00:00:00&nbsp;
+            .absolute.right.bottom.small-margin.black.white-text.small-text 00:00:00
           h5.no-margin {{ item.title }}
           div 10k views
           p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -22,8 +22,10 @@ main(v-show="data.isLoaded")
             button.no-round(data-ui="")
               i share
             button.right-round(data-ui="")
-              i more_vert</template>
+              i more_vert
+</template>
 
 <script setup lang="ts">
 import data from "./data";
 </script>
+

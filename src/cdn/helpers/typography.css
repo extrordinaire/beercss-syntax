@@ -93,11 +93,11 @@ h6.large {
   font-size: 2rem;
 }
 
-.link {
+.text-primary {
   color: var(--primary) !important;
 }
 
-.inverse-link {
+.text-inverse-primary {
   color: var(--inverse-primary) !important;
 }
 

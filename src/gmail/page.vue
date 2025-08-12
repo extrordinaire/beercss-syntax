@@ -7,7 +7,7 @@ div
     a(href="/gmail/sent", :class="{ active: data.url === '/gmail/sent' }")
       i send
       div Sent
-    a.button.fill.square.round.extra(data-ui="#dialog-add-small")
+    a.btn.fill.square.round.extra(data-ui="#dialog-add-small")
       i edit
     a(href="/gmail/drafts", :class="{ active: data.url === '/gmail/drafts' }")
       i insert_drive_file
@@ -46,19 +46,19 @@ div
       menu#menu-apps.left.padding.no-wrap(data-ui="#menu-apps")
         .grid.no-space
           .s4.center-align
-            a.button.transparent.circle.large
+            a.btn.transparent.circle.large
               img.no-round(:src="'/calendar.png'")
           .s4.center-align
-            a.button.transparent.circle.large
+            a.btn.transparent.circle.large
               img.no-round(:src="'/keep.png'")
           .s4.center-align
-            a.button.transparent.circle.large
+            a.btn.transparent.circle.large
               img.no-round(:src="'/tasks.png'")
           .s4.center-align
-            a.button.transparent.circle.large
+            a.btn.transparent.circle.large
               img.no-round(:src="'/contacts.png'")
           .s4.center-align
-            a.button.transparent.circle.large
+            a.btn.transparent.circle.large
               img.no-round(:src="'/favicon.png'")
     button.circle.large.transparent(@click="redirect('/')")
       img.responsive(:src="'/favicon.png'")

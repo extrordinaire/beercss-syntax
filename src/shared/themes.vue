@@ -46,7 +46,7 @@ div
   dialog.right(:id="dialogCodeId()")
     nav
       h5 Themes
-      a.button.border.m.l(href="https://github.com/beercss/beercss/blob/main/docs/SETTINGS.md", target="_blank") Documentation
+      a.btn.border.m.l(href="https://github.com/beercss/beercss/blob/main/docs/SETTINGS.md", target="_blank") Documentation
       .max
       button.transparent.circle(@click="showCode(false)")
         i close
@@ -97,9 +97,9 @@ const sourceCode = () => {
 
 const openCode = () => {
   ui(`#${dialogCodeId()}`);
-}
+};
 
 const dialogCodeId = () => {
   return `${data.id}-code`;
-}
+};
 </script>
